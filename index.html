@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Mobile-first Responsive Layout</title>
+</head>
+<body>
+<!--BODY CONTENT DIV?-->    
+    <header id="top">
+        <div class="main-header">
+            <h1>Nicolas Peterson</h1>
+            <!--Nav Bar-->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!--Profile-->
+            <img class="profile-picture" src="images/profile-pic.png" alt="profile picture">
+            <p>Hi there! I'm a front-end web developer who responsive design and CSS. I recently finished learning front-end web-development at Treehouse and I'm excited to put all my new skills to use!</p>
+        </div>
+    </header> 
+    <!--Portfolio-->
+    <main>
+        <div class ="main-portfolio">
+        <h2 id="portfolio">PORTFOLIO</h2>
+            <div class="card portfolio-1">
+                <img class="portfolio-img" src="images/portfolio-1.png" alt="marketing page link">
+                <h3>Marketing Page</h3>
+                <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            </div>
+            <div class="card portfolio-2">
+                <img class="portfolio-img" src="images/portfolio-2.png" alt="search page link">
+                <h3>Search Page</h3>
+                <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+            </div>
+            <div class="card portfolio-3">
+                <img class="portfolio-img" src="images/portfolio-3.png" alt="travel app link">
+                <h3>Travel App</h3>
+                <p>This project compares travel times based on different transportation methods and tells you the best one.</p>             
+            </div>
+            <div class="card portfolio-4">
+                <img class="portfolio-img" src="images/portfolio-4.png" alt="map link">
+                <h3>Map of Favorite Spots</h3>
+                <p>This project uses mapping apis to plot points for my favorite spots in the city for a DIY walking tour.</p>
+            </div>
+            <div class="card portfolio-5">
+                <img class="portfolio-img" src="images/portfolio-5.png" alt="photo gallery link">
+                <h3>Photo Gallery</h3>
+                <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            </div>
+            <div class="card portfolio-6">
+                <img class="portfolio-img" src="images/portfolio-6.png" alt="calculator link">
+                <h3>Calculator</h3>
+                <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </div>
+        </div>
+    </main>
+    <!--Contact information-->
+    <div class="contact">
+        <h2 id="contact-me">CONTACT</h2>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone <span><strong>(+84) 5822 1900</strong></span></p>
+        <p>Email <span><strong><a href="mailto:email@example.com">nicolas.peterson@picklerick.net</a></strong></span></p>        
+    </div>
+    <!--Footer-->
+    <footer>
+        <h3>Nicolas Peterson</h3>
+        <nav class="footer-nav">
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="#top">BACK TO TOP</a></li>
+                <li class="nav-li"><a href="#home">HOME</a></li>
+                <li class="nav-li"><a href="#portfolio">PORTFOLIO</a></li>
+                <li class="nav-li"><a href="#contact-me">CONTACT</a></li>
+            </ul>
+        </nav>
+    </footer>    
+</body>
+</html>
