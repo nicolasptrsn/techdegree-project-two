@@ -9,6 +9,33 @@
 
 /* Header Styles */
 
+h1{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.main-header{
+    text-align: center;
+    padding: 1em 0;
+    background-color: whitesmoke;
+}
+
+
 /* Portfolio Styles */
 
 .portfolio-img {
@@ -32,6 +59,22 @@
 
 /* Footer Styles */
 
+.contact {
+    text-align: center;
+    background-color: whitesmoke;
+    border-bottom: 1px dotted black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 2;
+}
+
+footer {
+    text-align: center;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -39,13 +82,5 @@
         display: flex;
         flex-wrap: wrap;
     }
-    .col {
-      flex-basis: calc(50% - 20px);  
-    }
 }
 
-@media (min-width: 1024px) {
-    .col {
-        flex-basis: calc(33.333% - 20px);
-    }
-}
