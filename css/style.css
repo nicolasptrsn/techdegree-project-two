@@ -116,6 +116,7 @@ footer {
 /* Media Queries */
 
 @media (min-width: 768px) {
+    
     .container {
         display: flex;
         flex-wrap: wrap;
@@ -155,5 +156,14 @@ footer {
     .nav-ul li {
         margin: 5px;
     }
+
 }
 
+@media (min-width: 1024px) {
+
+    .top-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
