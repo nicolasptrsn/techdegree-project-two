@@ -70,6 +70,7 @@ p {
 
 .portfolio-img {
     max-width: 275px;
+    padding-bottom: 10px;
 }
 
 .container {
@@ -82,9 +83,10 @@ p {
     width: 275px;
     margin: 0 10px 20px;
     min-height: 250px;
-    line-height: 1.5;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 1px;
+    font-size: 15px;
 }
 
 /* Footer Styles */
@@ -145,6 +147,10 @@ footer {
         text-align: left;
     }
 
+    .profile-picture {
+        width: auto;
+    }
+
     .nav-mobile {
         display: none;
     }
@@ -164,6 +170,11 @@ footer {
     .top-nav {
         display: flex;
         justify-content: space-between;
+        margin: 20px;
+    }
+
+    .profile-picture {
+        width: auto;
     }
 
 }
