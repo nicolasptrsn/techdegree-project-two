@@ -40,7 +40,7 @@ h3{
 }
 
 p {
-    padding: 20px;
+    padding: 10px;
 }
 
 /* Header Styles */
@@ -81,12 +81,13 @@ p {
 
 .col {
     width: 275px;
-    margin: 0 10px 20px;
+    margin: 0 auto;
     min-height: 250px;
-    line-height: 1.1;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 1px;
     font-size: 15px;
+    padding-bottom: 30px;
 }
 
 /* Footer Styles */
@@ -96,14 +97,21 @@ p {
     background-color: whitesmoke;
     border-bottom: 1px dotted black;
     line-height: 1.2;
-    padding: 50px;
+}
+
+.phone {
+    padding-top: 30px;
+}
+    
+.email {
+    padding-bottom: 50px;
 }
 
 footer {
     text-align: center;
     background-color: whitesmoke;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px;
 }
 
